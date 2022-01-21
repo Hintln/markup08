@@ -1,0 +1,39 @@
+.header-adress{
+display: flex;
+margin-left: auto;
+border: none;
+}
+
+.haeder-adress__link-phone{
+    margin-left: 50px;
+}
+
+.header-adress-item:hover,
+.header-adress-item:focus{
+    color: $accent-color;
+    fill: $accent-color;
+}
+
+
+.header-adress__icon{
+    display: inline-flex;
+    fill:currentColor;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.haeder-adress__link{
+    color: $secondary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+     transition: $transition-duration
+    $transition-timing-function;
+
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    } 
+}

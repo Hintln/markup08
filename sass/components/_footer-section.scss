@@ -1,0 +1,43 @@
+.footer__section{
+    background-color: #2F303A;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__container{
+    display: flex;
+    height: 252px;
+  
+}
+
+.footer__logo{
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    }
+}
+
+
+.footer__active-page{
+    color: $accent-color;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+.footer__links{
+    display: block;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,104 @@
+.nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__logo-link{
+    color: #000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    
+    &:hover,
+    &:focus{
+    color:$accent-color;
+    }
+}
+
+.nav__logo{
+    color:$accent-color;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    }
+}
+
+.nav__list{
+    display: flex;
+    margin-left: 93px; 
+    
+}
+
+
+.nav__item + .nav__item{
+    margin-left: 50px;
+    
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    fill: $accent-color;
+    }
+}
+
+
+.nav__link{
+    position: relative;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: $main-tex-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em; 
+    transition: $transition-duration,
+    $transition-timing-function;
+
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+     }
+
+}
+
+.nav__link.nav__current::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: currentColor;
+    border-radius: 2px;
+}
+
+.nav__current{
+    color: $accent-color; 
+}
+
+
+.nav__portfolio{
+     display: flex;
+     align-items: center;
+}
+
+
+
+.header__border{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header{
+    margin-bottom: 94px;
+}
