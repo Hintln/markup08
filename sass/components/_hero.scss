@@ -1,10 +1,10 @@
 
 .hero{
+    width: 480px;
+
   text-align: center;
-  padding: 200px 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
+  padding: 118px 0;
+    background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -14,7 +14,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1600px;  
+  max-width: 1600px; 
+
+  @include respond-to(mobile){
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
 
 .hero__title {
@@ -24,11 +31,18 @@
   margin-bottom: 30px;
 
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.37;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+    @include respond-to(desktop){
+    font-size: 44px;
+    width: 360px;
+    }
 }
+
+
     
 
 

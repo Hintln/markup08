@@ -1,7 +1,17 @@
+.header__page{
+    border: 1px solid #ececec;
+    position: relative;
+}
+
+.header__page--justify{
+    @include respond-to(mobile){
+    width: 480px;
+    }
+}
+
 .nav{
     display: flex;
     align-items: center;
-
 }
 
 .nav__logo-link{
@@ -68,7 +78,7 @@
     color: $accent-color;
     padding-top: 32px;
     padding-bottom: 32px;
-     }
+    }
 
 }
 
