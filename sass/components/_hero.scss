@@ -1,6 +1,5 @@
 
 .hero{
-    width: 480px;
 
   text-align: center;
   padding: 118px 0;
@@ -22,6 +21,10 @@
   margin-left: auto;
   margin-right: auto;
   }
+  @include respond-to(desktop){
+    max-width: 1600px;
+  }
+
 }
 
 .hero__title {
@@ -31,15 +34,10 @@
   margin-bottom: 30px;
 
   font-weight: 900;
-  font-size: 26px;
+  font-size: 44px;
   line-height: 1.37;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-    @include respond-to(desktop){
-    font-size: 44px;
-    width: 360px;
-    }
 }
 
 
