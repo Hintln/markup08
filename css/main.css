@@ -317,6 +317,16 @@ body {
     width: 480px;
   }
 }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
 .button {
   height: 50px;
@@ -946,6 +956,11 @@ body {
   margin-right: 0px;
 }
 
+.team > .team__image {
+  margin-right: 30px;
+  text-align: center;
+}
+
 .team {
   margin-bottom: 94px;
 }
@@ -974,6 +989,11 @@ body {
   margin: 0;
   padding-top: 60px;
   padding-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .team__title {
+    width: 480px;
+  }
 }
 
 .team__list {
