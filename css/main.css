@@ -350,6 +350,12 @@ body {
   position: relative;
 }
 
+@media screen and (min-width: 479px) {
+  .header__page--justify {
+    width: 480px;
+  }
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -449,6 +455,7 @@ body {
   margin-bottom: 94px;
 }
 
+<<<<<<< HEAD
 .menu__open {
   margin-left: auto;
 }
@@ -501,6 +508,8 @@ body {
           justify-content: space-between;
 }
 
+=======
+>>>>>>> parent of 641d623 (mob_header...)
 .header-adress {
   display: -webkit-box;
   display: -ms-flexbox;
