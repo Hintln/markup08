@@ -3,11 +3,7 @@
     position: relative;
 }
 
-.header__page--justify{
-    @include respond-to(mobile){
-    width: 480px;
-    }
-}
+
 
 .nav{
     display: flex;
@@ -112,3 +108,53 @@
 .header{
     margin-bottom: 94px;
 }
+
+
+.mob-menu-list__link{
+    color: #212121;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    &:hover,
+    &:focus{
+    color: $accent-color;
+    border-radius: 2px;
+    }
+}
+
+.mob-connect__tel{
+    color: $accent-color;   
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+.mob-connect__mail{
+    color: $secondary-text-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+}
+
+.mob-social__link{
+    color: $accent-color;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+}
+
+.mob-social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
