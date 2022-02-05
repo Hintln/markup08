@@ -27,6 +27,8 @@
             <button 
             type="button" 
             class="menu-button is-open"
+            aria-expanded="false"
+            aria-controls="mob-menu"
             data-menu-button>
                 <svg 
                 width='40' 
@@ -40,7 +42,7 @@
          </div>
                
          <!--Mobile menu-->
-          <div class="mob-menu">
+          <div class="mob-menu" id="mob-menu" data-menu >
                 <ul class="list mob-menu-list">
               <li class="mob-menu-list__item">
                 <a
@@ -62,15 +64,11 @@
                 >
               </li>
             </ul>
-          </div>
-          <div class="mob-menu-bottom">
-            <div class="mob-connect mob-menu__connect">
-              <a class="link mob-connect__tel" href="tel:+380961111111"
+
+            <a class="link mob-connect__tel" href="tel:+380961111111"
                 >+380961111111</a>
-            </div>
             <a class="link mob-connect__mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com </a>
-            </div>
             <ul class="list mob-social">
               <li class="mob-social__item">
                 <a

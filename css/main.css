@@ -463,16 +463,32 @@ body {
   background-color: transparent;
 }
 
-.menu-button .icon-cross {
+.menu-button .icon-menu {
   display: none;
-}
-
-.menu-button.is-open .icon-cross {
-  display: block;
 }
 
 .menu-button.is-open .icon-menu {
+  display: block;
+}
+
+.menu-button.is-open .icon-cross {
   display: none;
+}
+
+.mob-menu {
+  display: none;
+  background-color: palegoldenrod;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.mob-menu.is-open {
+  display: block;
 }
 
 .mob-menu-list__link {
