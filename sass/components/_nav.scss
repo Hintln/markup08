@@ -117,19 +117,27 @@
 // Mobile menu
 
 
-.menu__open{
+.menu-button{
     display: inline-block;
-    margin: 0 0 0 auto;
+    margin: 0 0 0  auto;
     padding: 0;
     border: none;
     background-color: transparent;
 }
 
-// .mob-menu.is-hidden{
-//     opacity: 0;
-//     pointer-events: none;
-//     visibility: hidden;
-// }
+.menu-button .icon-cross{
+    display: none;
+}
+
+.menu-button.is-open .icon-cross{
+    display: block;
+}
+.menu-button.is-open .icon-menu{
+    display: none;
+}
+
+
+
 
 
 
