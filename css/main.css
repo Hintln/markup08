@@ -462,6 +462,9 @@ body {
   border: none;
   background-color: transparent;
 }
+.menu-button.icon-menu {
+  display: block;
+}
 
 .menu-button .icon-menu {
   display: none;
