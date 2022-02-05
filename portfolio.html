@@ -16,28 +16,118 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-     <!--Хедер-->
+     <!--Header-->
      
-<header class="header"> 
+<header class="header__page">
     <div class="container">
-    <div class="nav__portfolio">
+    <div class="nav">
         <a class="nav__logo-link" href="/">
             <span class="nav__logo">Web</span><span>Studio</span></a>
-        <ul class="nav__list">
-            <li class="nav__item"><a href="./index.html" class="nav__link">Студия</a></li>
-            <li class="nav__item"><a href="./portfolio.html" class="nav__link nav__current">Портфолио</a></li>
+            <button 
+            type="button" 
+            class="menu-button is-open"
+            aria-expanded="false"
+            aria-controls="mob-menu"
+            data-menu-button>
+                <svg 
+                width='40' 
+                height='40' 
+                aria-label="Переключатель мобильного меню"
+                >
+                    <use class="icon-cross" href="./images/icons.svg#icon-menu-close_40px-1"></use>
+                    <use class="icon-menu" href="./images/icons.svg#icon-menu_40px-1"></use>
+                </svg>
+            </button>
+               
+         <!--Mobile menu-->
+          <div class="mob-menu" id="mob-menu" data-menu >
+                <ul class=" mob-menu-list">
+              <li class="mob-menu-list__item">
+                <a
+                  class=" mob-menu-list__link"
+                  href="#"
+                  >Студия</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a class=" mob-menu-list__link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a
+                  class="mob-menu-list__link"
+                  href="#"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+            <div class="contacts">
+             <a class=" mob-connect__tel" href="tel:+380961111111"
+                >+380961111111</a>
+            <a class=" mob-connect__mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com </a>
+            <ul class="list mob-social">
+              <li class="mob-social__item">
+                <a
+                  class="mob-social__link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mob-social__item">
+                <a
+                  class="mob-social__link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+                <li class="mob-social__item">
+                <a
+                  class="mob-social__link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+                <li class="mob-social__item">
+                <a
+                  class="mob-social__link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Linkedin</a
+                >
+              </li>
+            </ul> 
+            </div>
+            </div>
+            </div>
+          </div>
+
+
+
+
+         <!-- <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link nav__current">Студия</a></li>
+            <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
-        </ul>
-        <ul class="header-adress">
+        </ul>   -->
+         <!-- <ul class="header-adress">
             <li  class="header-adress__item">
-                <a href="mailto:info@devstudio.com" class="haeder-adress__link ">
+                <a href="mailto:info@devstudio.com" class="haeder-adress__link">
                 <svg class="header-adress__icon" width="16" height="12">
-                <use href="./images/icons2.svg#icon-mail"></use>
+                <use href="./images/icons2.svg#icon-mail" ></use>
                 </svg>
                 info@devstudio.com 
                 </a>
             </li>
-            <li class="header-adress__item">
+            <li class="header-adress__item ">
                 <a href="tel:+380961111111" class="haeder-adress__link haeder-adress__link-phone">
                 <svg class="header-adress__icon" width="10" height="16">
                 <use  href="./images/icons2.svg#icon-smartphone"></use>
@@ -45,14 +135,15 @@
                 +380961111111
             </a>
             </li>
-        </ul>
-        </div>
-        </div>
-        <div class="header__border">
+        </ul> -->
+    </div>
+    
+    </div>
+         <div class="header__border">
     </div>
 </header>
 
-<!--Мейн-->
+<!--Main-->
 
 <main class="footer__hero">
     <div class="container">
@@ -229,7 +320,7 @@
     </div>
 </main>
     
-<!--Футер-->
+<!--Footer-->
 <footer class="footer__section">
     <div class="container footer__container">
     <div class="footer__logo">
