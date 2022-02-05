@@ -3,11 +3,7 @@
     position: relative;
 }
 
-.header__page--justify{
-    @include respond-to(mobile){
-    width: 480px;
-    }
-}
+
 
 .nav{
     display: flex;
