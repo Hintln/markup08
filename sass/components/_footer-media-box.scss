@@ -1,11 +1,14 @@
 .mediabox{
-    margin-top: 72px;
-    margin-bottom: 100px;
-    margin-right: 93px;
+    margin-bottom: 60px;
+
+    // margin-top: 72px;
+    // margin-bottom: 100px;
+    // margin-right: 93px;
 }
 
 
 .mediabox__title{
+    text-align: center;
     color:$background-color;
     text-transform: uppercase;
     font-weight: 700;
@@ -18,6 +21,7 @@
 
 .mediabox__icons{
     display: flex;
+    justify-content: center;
     padding: 0;
 }
 

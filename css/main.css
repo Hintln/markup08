@@ -1318,30 +1318,18 @@ body {
 
 .footer__section {
   background-color: #2F303A;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 60px 0;
 }
 
 .footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 252px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .footer__logo {
-  color: #FFFFFF;
-  background-color: #2F303A;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-right: 70px;
-}
-.footer__logo:hover, .footer__logo:focus {
-  color: #2196F3;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .footer__active-page {
@@ -1356,7 +1344,18 @@ body {
 
 .footer__links {
   display: block;
+  text-align: center;
   margin-bottom: 20px;
+  color: #FFFFFF;
+  background-color: #2F303A;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+.footer__links:hover, .footer__links:focus {
+  color: #2196F3;
 }
 
 .adress {
@@ -1378,9 +1377,7 @@ body {
 }
 
 .footer__link {
-  margin-bottom: 9px;
-  width: 231px;
-  height: 21px;
+  margin-bottom: 8px;
 }
 
 .footer-adress__link {
@@ -1403,12 +1400,11 @@ body {
 }
 
 .mediabox {
-  margin-top: 72px;
-  margin-bottom: 100px;
-  margin-right: 93px;
+  margin-bottom: 60px;
 }
 
 .mediabox__title {
+  text-align: center;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
@@ -1423,6 +1419,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0;
 }
 
@@ -1475,12 +1474,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  width: 570px;
-  height: 86px;
-  margin-top: 72px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-form__mail {
@@ -1491,9 +1494,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .footer-form__title {
+  text-align: center;
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -1504,7 +1510,7 @@ body {
 }
 
 .footer-form__input {
-  width: 358px;
+  width: 100%;
   height: 50px;
   padding-left: 16px;
   margin-right: 12px;
