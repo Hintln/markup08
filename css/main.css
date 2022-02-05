@@ -1337,8 +1337,8 @@ body {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
@@ -1349,8 +1349,8 @@ body {
   color: #FFFFFF;
   background-color: #2F303A;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
@@ -1383,9 +1383,9 @@ body {
 .footer-adress__link {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2F303A;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .footer-adress__link--adress {

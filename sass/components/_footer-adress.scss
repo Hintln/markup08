@@ -29,21 +29,20 @@
 .footer-adress__link{
     color: rgba(255, 255, 255, 0.6);
     background-color: #2F303A;
-    font-weight: 700;
+    // font-weight: 700;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     &--adress{
         color: $background-color;
-
     }
-
     &:hover,
     &:focus{
     color: $accent-color;
     }
 }
-   
+
 .footer-adress__link:nth-last-child(1n+2){
     margin-bottom: 9px;
 }
