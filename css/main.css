@@ -1061,11 +1061,15 @@ body {
   fill: #fff;
 }
 
+.clients {
+  margin-top: 60px;
+}
+
 .clients__title {
   color: #212121;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
@@ -1079,6 +1083,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 94px;
+  width: calc((100% - 4 * 15px) / 2);
+  height: 92px;
 }
 .clients__list:hover, .clients__list:focus {
   fill: #2196F3;

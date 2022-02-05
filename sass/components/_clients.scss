@@ -1,10 +1,14 @@
-
+.clients{
+    margin-top: 60px;
+}
 
 .clients__title{
     color: $main-tex-color;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
+    font-size: 28px;
+    line-height: 1.17;
+    // font-size: 36px;
+    // line-height: 1.1;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -14,8 +18,8 @@
     display: inline-flex;
     justify-content: center;
     margin-bottom: 94px;
-    
-
+    width: calc((100% - 4 * 15px) / 2);
+    height: 92px;
     &:hover,
     &:focus {
     fill:$accent-color;
