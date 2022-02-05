@@ -456,7 +456,11 @@ body {
 }
 
 .menu__open {
-  margin-left: auto;
+  display: inline-block;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
 
 .mob-menu-list__link {
