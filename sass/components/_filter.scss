@@ -1,10 +1,14 @@
 .filter{
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 60px;
 }
 
 .filter__buttons{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    // justify-content: center;
     
 }
 
@@ -50,9 +54,13 @@
     background-color:$accent-color;
 }
 
+.filter__list{
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+
 
 .filter__list+.filter__list{
-    margin-left: 8px;
     background: #F5F4FA;
     border-radius: 4px;
 }

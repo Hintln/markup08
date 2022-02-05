@@ -375,11 +375,24 @@ body {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .nav__logo:hover, .nav__logo:focus {
+  color: #2196F3;
+}
+
+.nav__logo--studio {
+  color: #2196F3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.nav__logo--studio:hover, .nav__logo--studio:focus {
   color: #2196F3;
 }
 
@@ -1128,16 +1141,19 @@ body {
 }
 
 .filter {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 .filter__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .filter__button {
@@ -1179,8 +1195,12 @@ body {
   background-color: #2196F3;
 }
 
+.filter__list {
+  margin-right: 8px;
+  margin-bottom: 15px;
+}
+
 .filter__list + .filter__list {
-  margin-left: 8px;
   background: #F5F4FA;
   border-radius: 4px;
 }
