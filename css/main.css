@@ -1548,6 +1548,7 @@ body {
   display: inline-block;
   margin: 0 0 0 auto;
   padding: 0;
+  z-index: 100;
   border: none;
   background-color: transparent;
 }
@@ -1592,6 +1593,7 @@ body {
   }
   .mob-menu.is-open {
     display: block;
+    position: fixed;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 768px) {
