@@ -951,16 +951,6 @@ body {
 .section-team {
   background-color: #F5F4FA;
 }
-@media screen and (min-width: 480px) {
-  .section-team {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768) {
-  .section-team {
-    width: 768px;
-  }
-}
 
 .team__title {
   color: #212121;
