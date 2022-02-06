@@ -1575,6 +1575,7 @@ body {
 }
 
 .mob-menu {
+  display: none;
   background-color: #ffffff;
   padding: 20px;
   margin-left: auto;
