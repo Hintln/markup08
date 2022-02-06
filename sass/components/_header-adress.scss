@@ -1,19 +1,35 @@
 .header-adress{
     display: none;
+    @media screen and(min-width:768px) {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 84px;
+    &:nth-child(1) {
+    margin-bottom: 10px;
+  }
+    }
 // display: flex;
 // margin-left: auto;
 // border: none;
 }
 
-.haeder-adress__link-phone{
-    margin-left: 50px;
-}
+// .haeder-adress__link-phone{
+//     margin-left: 50px;
+// }
 
-.header-adress-item:hover,
-.header-adress-item:focus{
+
+.header-adress__item{
+    margin-bottom: 10px;
+    &:nth-last-child(1){
+        margin-bottom: 0;
+    }
+    &:hover,
+    &:focus{
     color: $accent-color;
     fill: $accent-color;
+    }
 }
+
 
 
 .header-adress__icon{
@@ -25,6 +41,7 @@
 }
 
 .haeder-adress__link{
+    display: flex;
     color: $secondary-text-color;
     font-weight: 500;
     font-size: 14px;

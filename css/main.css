@@ -470,13 +470,29 @@ body {
 .header-adress {
   display: none;
 }
-
-.haeder-adress__link-phone {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .header-adress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 84px;
+  }
+  .header-adress:nth-child(1) {
+    margin-bottom: 10px;
+  }
 }
 
-.header-adress-item:hover,
-.header-adress-item:focus {
+.header-adress__item {
+  margin-bottom: 10px;
+}
+.header-adress__item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.header-adress__item:hover, .header-adress__item:focus {
   color: #2196F3;
   fill: #2196F3;
 }
@@ -496,6 +512,9 @@ body {
 }
 
 .haeder-adress__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
