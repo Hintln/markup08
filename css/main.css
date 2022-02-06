@@ -1630,7 +1630,6 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 .mob-menu-list__item:not(:last-child) {
   padding-bottom: 32px;
 }

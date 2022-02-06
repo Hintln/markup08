@@ -58,19 +58,16 @@
     flex-direction: column;
     left: 40px;
     top: 48px;
-
-
 }
 
 
 .mob-menu-list__item{
     display: flex;
-}
-   
-.mob-menu-list__item:not(:last-child){
+    &:not(:last-child){
     padding-bottom: 32px;
 }
-
+}
+   
 .mob-menu-list__link {
   color: #212121;
   font-weight: 500;
