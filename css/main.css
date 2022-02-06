@@ -1595,7 +1595,6 @@ body {
   .mob-menu {
     display: none;
     position: absolute;
-    top: 100%;
     top: 0;
     left: 0;
     height: 100vh;
