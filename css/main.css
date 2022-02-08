@@ -597,6 +597,12 @@ body {
   padding: 40px;
   background-color: #fff;
 }
+@media screen and (min-width: 768px) {
+  .modal {
+    height: 609px;
+    width: 450px;
+  }
+}
 
 .modal__open {
   position: absolute;
@@ -727,65 +733,32 @@ body {
   line-height: 1.15;
   letter-spacing: 0.01em;
 }
-
 .form__comment::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__comment::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__comment:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__comment::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.form__comment::-webkit-input-placeholder .form__comment:focus {
+.form__comment:focus {
   border: 1px solid #2196F3;
   outline: 0;
 }
-.form__comment::-moz-placeholder .form__comment:focus {
-  border: 1px solid #2196F3;
-  outline: 0;
-}
-.form__comment:-ms-input-placeholder .form__comment:focus {
-  border: 1px solid #2196F3;
-  outline: 0;
-}
-.form__comment::-ms-input-placeholder .form__comment:focus {
-  border: 1px solid #2196F3;
-  outline: 0;
-}
-.form__comment::placeholder .form__comment:focus {
-  border: 1px solid #2196F3;
-  outline: 0;
-}
-.form__comment::-webkit-input-placeholder .form__comment:not(:placeholder-shown) {
+.form__comment:not(:-moz-placeholder-shown) {
   color: #212121;
 }
-.form__comment::-moz-placeholder .form__comment:not(:placeholder-shown) {
+.form__comment:not(:-ms-input-placeholder) {
   color: #212121;
 }
-.form__comment:-ms-input-placeholder .form__comment:not(:placeholder-shown) {
-  color: #212121;
-}
-.form__comment::-ms-input-placeholder .form__comment:not(:placeholder-shown) {
-  color: #212121;
-}
-.form__comment::placeholder .form__comment:not(:-moz-placeholder-shown) {
-  color: #212121;
-}
-.form__comment::placeholder .form__comment:not(:-ms-input-placeholder) {
-  color: #212121;
-}
-.form__comment::placeholder .form__comment:not(:placeholder-shown) {
+.form__comment:not(:placeholder-shown) {
   color: #212121;
 }
 
@@ -839,6 +812,11 @@ body {
   color: #2196F3;
   margin-left: 4px;
   text-decoration: underline;
+}
+@media screen and (min-width: 768px) {
+  .checkbox__link {
+    margin-left: 0;
+  }
 }
 
 .checkbox__button {

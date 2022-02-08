@@ -63,17 +63,16 @@
     font-size: 12px;
     line-height: 1.15;
     letter-spacing: 0.01em;
-}
 
-
-.form__comment::placeholder{
+    &::placeholder{
     color: rgba(117, 117, 117, 0.5);
+    }
 
-.form__comment:focus{
+    &:focus{
     border: 1px solid $accent-color;
     outline: 0;
     }
-.form__comment:not(:placeholder-shown) {
+    &:not(:placeholder-shown) {
     color: $main-tex-color;
     }
 }
