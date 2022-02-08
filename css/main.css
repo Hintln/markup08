@@ -1221,6 +1221,17 @@ body {
   margin-bottom: 40px;
   margin-top: 60px;
 }
+@media screen and (min-width: 768px) {
+  .filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
 
 .filter__buttons {
   display: -webkit-box;
@@ -1275,6 +1286,11 @@ body {
 .filter__list {
   margin-right: 8px;
   margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .filter__list {
+    margin-bottom: 0px;
+  }
 }
 
 .filter__list + .filter__list {
