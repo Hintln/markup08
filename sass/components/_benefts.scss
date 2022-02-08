@@ -8,6 +8,10 @@
 //     justify-content: center;  
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and(min-width:768px){
+        display: flex;
+        flex-wrap: wrap;
+    }
  }
 
 .benefits__item{
@@ -20,6 +24,12 @@
     // &:nth-child(1){
     // margin-left: 0px;
     // }
+
+    @media screen and(min-width:768px) {
+     width: calc((100% - 4 * 15px) / 2);
+    margin-right: 15px;
+    margin-left: 15px;
+    }
 }
 
 

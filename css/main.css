@@ -864,9 +864,25 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .benefits__item {
   margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .benefits__item {
+    width: calc((100% - 4 * 15px) / 2);
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
 
 .benefits__title {
