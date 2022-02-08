@@ -841,6 +841,16 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
+@media screen and (min-width: 1200px) {
+  .checkbox__label {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
 
 .checkbox__label > .checkbox__visual-hidden {
   position: absolute;

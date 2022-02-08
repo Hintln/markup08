@@ -1,17 +1,20 @@
 .checkbox__label{
     display: flex;
     justify-content: space-between;
-    // justify-content: center;
     align-items: center ;
-    // color: $main-tex-color;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
-    // font-size: 14px;
-    // line-height: 1.71;
     margin-bottom: 30px;
     margin-top: 20px;
     cursor: pointer;
+   
+    @media screen and(min-width:1200px) {
+    justify-content: center;
+    color: $main-tex-color;
+    font-size: 14px;
+    line-height: 1.71;
+    }
 
 }
 
