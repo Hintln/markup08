@@ -640,6 +640,11 @@ body {
   padding: 10px 32px;
   border: 0px;
 }
+@media screen and (min-width: 768px) {
+  .modal__button {
+    font-weight: 700;
+  }
+}
 
 .modal__button:hover,
 .modal__button:focus {
@@ -898,6 +903,11 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .benefits__title {
+    text-align: left;
+  }
+}
 
 .benefits__signature {
   color: #757575;
@@ -1039,9 +1049,19 @@ body {
   background: #FFFFFF;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .team__image {
+    width: 354px;
+  }
+}
 
 .team__profile {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .team__profile {
+    width: auto;
+  }
 }
 
 .team__subtitle {
@@ -1061,6 +1081,11 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .team__signature {
+    margin-bottom: 16px;
+  }
+}
 
 .team__social {
   padding: 0;
@@ -1071,6 +1096,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .team__social {
+    padding-bottom: 24px;
+  }
 }
 
 .team-social__icon {
@@ -1402,6 +1432,11 @@ body {
   text-align: center;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__logo {
+    margin-bottom: 0;
+  }
+}
 
 .footer__active-page {
   color: #2196F3;
@@ -1427,6 +1462,22 @@ body {
 }
 .footer__links:hover, .footer__links:focus {
   color: #2196F3;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__links {
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__container--page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 60px;
+  }
 }
 
 .adress {
@@ -1472,6 +1523,11 @@ body {
 
 .mediabox {
   margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .mediabox {
+    margin-bottom: 0;
+  }
 }
 
 .mediabox__title {
@@ -1566,7 +1622,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 20px;
-  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .footer-form__mail {
+    width: 100%;
+  }
 }
 
 .footer-form__title {
@@ -1591,6 +1651,12 @@ body {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-form__input {
+    width: 450px;
+    height: 50px;
+  }
 }
 
 .footer-form__button {
