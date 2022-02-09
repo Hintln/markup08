@@ -3,17 +3,19 @@
     text-align: center;
     }
 .team{
-    // height: 648px;
-    // max-width: 1600px;
     margin-bottom: 94px;
-}
+
+    max-width: 1600px;
+    }
+
 
 .section-team{
-background-color: #F5F4FA;
-  // @media screen and (min-width: 480px){
-  //   width: 480px;
-  // }
-
+    background-color: #F5F4FA;
+    max-width: 1600px;
+    @media screen and(min-width:1200px) {
+    height: 648px;
+    background-color: #F5F4FA;
+   }
 }
 
 
@@ -22,7 +24,6 @@ background-color: #F5F4FA;
     color: $main-tex-color;
     font-weight: 700;
     font-size: 28px;
-    // font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
@@ -30,30 +31,35 @@ background-color: #F5F4FA;
     padding-top: 60px;
     padding-bottom: 30px;
     
-      @media screen and (min-width: 480px){
+    @media screen and (min-width: 480px){
     width: 480px;
   }
-
   @media screen and(min-width:768px) {
-      width: 768px;
+    width: 768px;
   }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+    font-size: 36px;
+  }
+
 }
 
 .team__list{
-    // display: flex;
-    // width: 1170px;
-    // height: 368px;
     text-align: center;
-    // margin-left: 215px;
-    // margin-right: 215px;
     padding-bottom: 60px;
 
-    @media screen and(min-width:768px) {
+    @media screen and(min-width:768px) and (max-width:1199px) {
         display: flex;
         flex-wrap: wrap;
         justify-content:space-between;
         padding-bottom: 64px;
+    }
 
+    @media screen and(min-width:1200px) {
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    text-align: center;
     }
 }
 
@@ -61,18 +67,21 @@ background-color: #F5F4FA;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    // width: 450px;
-    // height: 622px;
     margin-bottom: 30px;
     
-    @media screen and(min-width:768px) {
+    @media screen and(min-width:768px) and(max-width:1199px) {
     width: 354px;
     }
 
+    @media screen and(min-width:1200px) {
+        width: 270px;
+        height: 428px;
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+    }
 }
-// .team__image+ .team__image{
-// margin-left: 30px;
-// }
+
 
 .team__profile{
     margin-bottom: 30px;
