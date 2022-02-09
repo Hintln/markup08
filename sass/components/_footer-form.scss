@@ -41,14 +41,11 @@ text-transform: uppercase;
 .footer-form__input {
   width: 450px;
   height: 50px;
-
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-
   padding-left: 16px;
   margin-right: 12px;
-
   background-color: inherit;
   color: $background-color;
 
@@ -64,7 +61,6 @@ text-transform: uppercase;
 .footer-form--subscribe {
   display: flex;
   align-items: center;
-
   padding-left: 29px;
 }
 
@@ -101,10 +97,9 @@ text-transform: uppercase;
     color:$accent-color;
     }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     justify-content: center;
-
     font-size: 26px;
     line-height: 1.19;
   }
@@ -123,10 +118,9 @@ text-transform: uppercase;
 
 .footer-address {
 list-style: none;
-  padding: 0;
-  margin: 0;;
-
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+padding: 0;
+margin: 0;;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,21 +129,18 @@ list-style: none;
 
 .footer-address__item {
   margin-bottom: 8px;
-
   &:last-child {
     margin-bottom: 0;
   }
-
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     margin-bottom: 9px;
   }
 }
 
 .footer-address__link {
-  text-decoration: none;
+text-decoration: none;
 
-  transition: color $transition-duration $transition-timing-function;
-
+transition: color $transition-duration $transition-timing-function;
   &:hover,
   &:focus {
     color: $accent-color;
