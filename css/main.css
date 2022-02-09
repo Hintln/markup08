@@ -1330,9 +1330,9 @@ body {
             justify-content: center;
     margin-bottom: 94px;
   }
-  .clients__list:hover, .clients__list:focus {
-    fill: #2196F3;
-  }
+}
+.clients__list:hover, .clients__list:focus {
+  fill: #2196F3;
 }
 
 .clients__item {
@@ -1385,11 +1385,6 @@ body {
   }
 }
 
-.clients__item:hover .clients__icon,
-.clients__item:focus .clients__icon {
-  fill: #2196F3;
-}
-
 .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1408,6 +1403,11 @@ body {
   fill: #afb1b8;
   -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1) cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill cubic-bezier(0.4, 0, 0.2, 1) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients__item:hover .clients__icon,
+.clients__item:focus .clients__icon {
+  fill: #2196F3;
 }
 
 .filter {

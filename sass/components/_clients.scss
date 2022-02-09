@@ -32,11 +32,12 @@
     justify-content: center;
     margin-bottom: 94px;
     // height: 92px;
+
+}
     &:hover,
     &:focus {
     fill:$accent-color;
     }
-}
 }
 
 
@@ -90,23 +91,9 @@
       margin-right: 0;
     }
     }
+ 
   }
 
-
-
-// .clients__item:nth-child(6){
-//     margin-right: 0;
-// }
-
-
-
-
-.clients__item:hover,
-.clients__item:focus{
-    .clients__icon{
-        fill: $accent-color;
-    }
-}
 
 
 .clients__link{
@@ -120,5 +107,13 @@
 .clients__icon{
     fill: $icon-color;
     transition: fill $transition-timing-function $transition-timing-function ;
+
 }
 
+
+.clients__item:hover,
+.clients__item:focus{
+    .clients__icon{
+        fill: $accent-color;
+    }
+}
