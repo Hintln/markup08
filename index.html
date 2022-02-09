@@ -286,21 +286,59 @@
         <h2 class="services__title">Чем мы занимаемся</h2>
         <ul class="services__list">
             <li class="services__image">
-                <img src="./images/box-1.jpg" alt="создание страниц" width="370" height="294"/>
+            <picture>
+                <source
+                srcset="
+                ./images/box-1.jpg 1x,
+                ./images/imgs_hw8/a1_2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+                type="image/jpg"
+                />
+                <img src="./images/box-1.jpg" 
+                alt="создание страниц" 
+                width="370" height="294"/>
                 <div class="services-text">
+            </picture>
                     <p>Десктопные приложения</p>
                 </div>
             </li>
 
-             <li class="services__image">   
-                <img src="./images/box-2.jpg" alt="адаптация под все платформы" width="370" height="294"/>
+             <li class="services__image">  
+                       <picture>
+                <source
+                srcset="
+                ./images/box-2.jpg 1x,
+                ./images/imgs_hw8/a2_2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+                type="image/jpg"
+                />
+                <img src="./images/box-2.jpg" 
+                alt="создание страниц" 
+                width="370" height="294"/>
+                <div class="services-text">
+            </picture>
                 <div class="services-text">
                     <p>Мобильные приложения</p>
                 </div>             
             </li>
 
             <li class="services__image">
-                <img src="./images/box-3.jpg" alt="стилизация" width="370" height="294"/>
+                     <picture>
+                <source
+                srcset="
+                ./images/box-3.jpg 1x,
+                ./images/imgs_hw8/a3_2x.jpg 2x
+                "
+                media="(min-width: 1200px)"
+                type="image/jpg"
+                />
+                <img src="./images/box-3.jpg" 
+                alt="создание страниц" 
+                width="370" height="294"/>
+                <div class="services-text">
+            </picture>
                 <div class="services-text">
                     <p>Дизайнерские решения</p>
                 </div>          
