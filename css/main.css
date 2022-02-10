@@ -2213,6 +2213,11 @@ body {
   line-height: 1.22;
   letter-spacing: 0.02em;
 }
+@media screen and (max-width: 480px) {
+  .mob-social__link {
+    font-size: 13px;
+  }
+}
 
 .mob-social {
   position: absolute;
