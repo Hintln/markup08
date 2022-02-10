@@ -70,8 +70,10 @@
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
     margin-bottom: 30px;
-    width: 450px;
-    height: 622px;
+    @media screen and(min-width:480px) and(max-width:767px) {
+        width: 450px;
+        height: 622px;  
+    }
     
     @media screen and(min-width:768px) and(max-width:1199px) {
     width: 354px;
