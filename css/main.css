@@ -711,6 +711,11 @@ body {
   background-color: #fff;
   cursor: pointer;
 }
+@media screen and (min-width: 1200px) {
+  .modal__open {
+    width: auto;
+  }
+}
 
 .modal__open:hover .modal__icon,
 .modal__open:focus .modal__icon {
@@ -2213,7 +2218,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   bottom: 32px;
-  left: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

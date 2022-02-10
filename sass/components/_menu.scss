@@ -27,6 +27,7 @@
 
 .mob-menu{
     display: none;
+    // overflow-y: auto;
     background-color: #ffffff;
     padding: 20px;
     margin-left: auto;
@@ -131,7 +132,7 @@
     position: absolute;
     display: flex;
     bottom: 32px;
-    left: 40px;
+    // left: 38px;
     // flex-wrap: wrap;
     justify-content: space-between;
     // bottom: 200px;
