@@ -2106,23 +2106,21 @@ body {
   background-color: #ffffff;
   padding: 20px;
   margin-left: auto;
-  height: 100vh;
   text-align: center;
   font-size: 20px;
-  z-index: 99;
 }
 @media screen and (max-width: 767px) {
   .mob-menu {
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
   }
   .mob-menu.is-open {
+    top: 0;
+    left: 0;
     display: block;
     position: fixed;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 768px) {
