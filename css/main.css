@@ -400,6 +400,11 @@ body {
 .nav__logo-link:hover, .nav__logo-link:focus {
   color: #2196F3;
 }
+@media screen and (max-width: 767px) {
+  .nav__logo-link {
+    margin: 16px 0;
+  }
+}
 @media screen and (min-width: 1200px) {
   .nav__logo-link {
     font-size: 26px;
